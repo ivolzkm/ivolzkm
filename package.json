@@ -12,16 +12,16 @@
   },
   "license": "MIT",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "dev": "next dev"
   },
   "dependencies": {
     "next": "^15.4.5",
-    "next.js": "^1.0.3",
-    "node": "^20.19.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
