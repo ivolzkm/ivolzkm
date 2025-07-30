@@ -1,3 +1,5 @@
+import './style.css';
+
 function Home() {
   const githubLink = "https://github.com/ivolzkm"; 
   const linkedinLink = "https://www.linkedin.com/in/ivo-ricardo-lozekam-junior-6944a1195/"; 
