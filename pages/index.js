@@ -1,4 +1,5 @@
-import './style.css';
+import './style.css'
+
 
 function Home() {
   const githubLink = "https://github.com/ivolzkm"; 
