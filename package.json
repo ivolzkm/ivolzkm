@@ -1,0 +1,25 @@
+{
+  "name": "curso.dev",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ivolzkm/curso.dev#readme",
+  "bugs": {
+    "url": "https://github.com/ivolzkm/curso.dev/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivolzkm/curso.dev.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next.js": "^1.0.3",
+    "node": "^20.19.4",
+    "react": "^19.1.1"
+  }
+}
