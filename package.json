@@ -2,13 +2,13 @@
   "name": "ivolzkm",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/ivolzkm#readme",
+  "homepage": "https://github.com/ivolzkm/meu-projeto-next#readme",
   "bugs": {
-    "url": "https://github.com/ivolzkm/issues"
+    "url": "https://github.com/ivolzkm/meu-projeto-next/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivolzkm.git"
+    "url": "git+https://github.com/ivolzkm/meu-projeto-next.git"
   },
   "license": "MIT",
   "author": "",
