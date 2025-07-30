@@ -1,9 +1,9 @@
 function Home() {
-  const githubLink = "https://github.com/SEU_USUARIO_GITHUB"; // Substitua pelo seu usuário do GitHub
-  const linkedinLink = "https://www.linkedin.com/in/SEU_PERFIL_LINKEDIN"; // Substitua pelo seu perfil do LinkedIn
+  const githubLink = "https://github.com/ivolzkm"; 
+  const linkedinLink = "https://www.linkedin.com/in/ivo-ricardo-lozekam-junior-6944a1195/"; 
 
   return (
-    <div className="home-container"> {/* Adicionei uma div para estilização futura */}
+    <div className="home-container"> 
       <h1>Ivo Ricardo Lozekam - Informática Biomédica</h1>
 
       <p className="greeting">👋 Olá! Eu sou Ivo</p>
