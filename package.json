@@ -1,14 +1,14 @@
 {
-  "name": "curso.dev",
+  "name": "ivolzkm",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/ivolzkm/curso.dev#readme",
+  "homepage": "https://github.com/ivolzkm#readme",
   "bugs": {
-    "url": "https://github.com/ivolzkm/curso.dev/issues"
+    "url": "https://github.com/ivolzkm/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivolzkm/curso.dev.git"
+    "url": "git+https://github.com/ivolzkm.git"
   },
   "license": "MIT",
   "author": "",
