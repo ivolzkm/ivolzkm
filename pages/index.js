@@ -1,14 +1,14 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-
+// Lembre-se que as regras para 'body' e '.profile-image'
+// devem estar no seu arquivo CSS global (style.css ou globals.css)
 
 function HomePage() {
   const githubLink = "https://github.com/ivolzkm"; 
   const linkedinLink = "https://www.linkedin.com/in/ivo-ricardo-lozekam-junior-6944a1195/"; 
 
   return (
-    // Usamos um Fragment (<>) para agrupar os elementos sem adicionar um nó extra ao DOM
     <>
       <Head>
         <title>Portfólio Ivo Lozekam</title>
@@ -18,56 +18,54 @@ function HomePage() {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
       </Head>
 
-      {/* Container principal com a cor de fundo e garantindo que ocupe a tela toda */}
-      <div className="bg-gray-100 text-gray-800 min-h-screen">
-        <div className="max-w-4xl mx-auto p-4 sm:p-8">
-            
+      {/* Container principal para centralizar o conteúdo na página */}
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+        
+        {/* O "cartão" branco que contém todo o conteúdo */}
+        <div className="max-w-4xl w-full bg-white rounded-2xl shadow-xl p-6 sm:p-10">
+
             {/* Cabeçalho com a imagem e o título */}
-            <header className="flex flex-col sm:flex-row items-center justify-center text-center sm:text-left mb-12 pt-8">
-                {/* Imagem de Perfil usando o componente Image do Next.js */}
+            <header className="flex flex-col sm:flex-row items-center text-center sm:text-left mb-10">
                 <Image 
                     src="/images/ivo.jpeg" 
                     alt="Foto de perfil de Ivo Ricardo Lozekam"
-                    width={160} // Obrigatório para o componente Image
-                    height={160} // Obrigatório para o componente Image
-                    className="w-32 h-32 sm:w-40 sm:h-40 rounded-full mb-6 sm:mb-0 sm:mr-8 border-4 border-white shadow-lg profile-image"
+                    width={150}
+                    height={150}
+                    className="flex-shrink-0 w-32 h-32 sm:w-36 sm:h-36 rounded-full mb-6 sm:mb-0 sm:mr-8 border-4 border-blue-500 shadow-lg profile-image"
                 />
                 
-                {/* Título e Subtítulo */}
                 <div>
-                    <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">Ivo Ricardo Lozekam</h1>
-                    <h2 className="text-xl sm:text-2xl text-blue-600">Informática Biomédica</h2>
+                    <h1 className="text-3xl sm:text-5xl font-bold text-gray-800">Ivo Ricardo Lozekam</h1>
+                    <h2 className="text-xl sm:text-2xl text-blue-600 mt-1">Informática Biomédica</h2>
                 </div>
             </header>
 
-            {/* Seção "Sobre Mim" */}
+            {/* Conteúdo principal */}
             <main>
-                <section className="bg-white p-8 rounded-lg shadow-md">
-                    <h3 className="text-2xl font-bold mb-4 text-center">Sobre Mim</h3>
-                    
-                    <p className="text-lg mb-4">
-                        👋 Olá! Eu sou Ivo, estudante de graduação em <strong className="text-blue-600">Informática Biomédica</strong> na Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA). Sou um entusiasta da tecnologia apaixonado por encontrar e aplicar soluções inovadoras para os desafios da área da saúde.
+                <section className="border-t border-gray-200 pt-8">
+                    <p className="text-lg text-center sm:text-left mb-4 text-gray-700">
+                        👋 Olá! Eu sou Ivo, estudante de graduação na <strong className="font-semibold text-gray-800">Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA)</strong>. Sou um entusiasta da tecnologia apaixonado por encontrar e aplicar soluções inovadoras para os desafios da área da saúde.
                     </p>
 
-                    <div className="flex justify-center space-x-6 my-6 text-4xl">
+                    <div className="flex justify-center space-x-6 my-8 text-4xl text-gray-400">
                         <span>💻</span>
                         <span>🧬</span>
                         <span>💡</span>
                     </div>
 
-                    <p className="text-lg">
+                    <p className="text-lg text-center sm:text-left text-gray-700">
                         Minha jornada na UFCSPA tem me proporcionado uma base sólida em ciência da computação e biologia, preparando-me para desenvolver projetos de impacto. Busco ativamente oportunidades para aplicar meus conhecimentos em pesquisa, desenvolvimento de software ou análise de dados complexos para melhorar a saúde humana.
                     </p>
                 </section>
 
-                {/* Seção de Links Sociais */}
-                <section className="mt-8 text-center pb-8">
-                    <h3 className="text-2xl font-bold mb-4">Conecte-se Comigo!</h3>
-                    <div className="flex justify-center space-x-4">
-                        <a href={githubLink} target="_blank" rel="noopener noreferrer" className="bg-gray-800 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-700 transition-colors duration-300 shadow-md">
+                {/* Links Sociais */}
+                <section className="mt-10 text-center">
+                    <h3 className="text-2xl font-bold mb-5 text-gray-800">Conecte-se Comigo!</h3>
+                    <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href={githubLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-gray-800 text-white font-bold py-3 px-8 rounded-lg hover:bg-gray-700 transition-all duration-300 shadow-md transform hover:scale-105">
                             GitHub
                         </a>
-                        <a href={linkedinLink} target="_blank" rel="noopener noreferrer" className="bg-blue-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-600 transition-colors duration-300 shadow-md">
+                        <a href={linkedinLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-500 transition-all duration-300 shadow-md transform hover:scale-105">
                             LinkedIn
                         </a>
                     </div>
