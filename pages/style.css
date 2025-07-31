@@ -1,10 +1,28 @@
+/* --- Tailwind CSS Setup --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* --- Estilos Globais para o Novo Componente --- */
+
+/* A fonte 'Inter' é importada no componente Head do Next.js. 
+   Esta regra garante que ela seja a fonte padrão. */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background-color: #f5f5f5;
-  color: #222;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
 }
+
+/* Classe para garantir que a imagem de perfil redonda se ajuste bem */
+.profile-image {
+    object-fit: cover;
+}
+
+
+/* --- Estilos Antigos (podem não ser mais necessários) --- */
+/* As classes abaixo eram para a estrutura anterior e podem não se aplicar 
+   ao novo componente que usa classes do Tailwind CSS. */
 
 .home-container {
   max-width: 900px;
