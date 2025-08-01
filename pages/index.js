@@ -35,7 +35,7 @@ function HomePage() {
                 />
                 
                 <div>
-                    <h1 className="text-3xl sm:text-5xl font-bold text-gray-800">Ivo Ricardo Lozekam</h1>
+                    <h1 className="text-3xl sm:text-5xl font-bold text-gray-800">Ivo Ricardo Lozekam Junior</h1>
                     <h2 className="text-xl sm:text-2xl text-blue-600 mt-1">Informática Biomédica</h2>
                 </div>
             </header>
