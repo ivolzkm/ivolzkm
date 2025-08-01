@@ -49,5 +49,5 @@ Lembre-se de **fixar (pin)** seus melhores repositórios no seu perfil do GitHub
 
 Estou sempre aberto a novas conexões, ideias e oportunidades de colaboração!
 
-<a href="mailto:seu-email@exemplo.com.br"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/seu-perfil-linkedin/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:ivo.junior@ufcspa.edu.br"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/ivo-ricardo-lozekam-junior-6944a1195/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
