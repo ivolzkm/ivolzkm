@@ -38,8 +38,13 @@ Aqui estão algumas das tecnologias com as quais estou trabalhando e estudando.
 
 ## 🚀 Projetos em Destaque
 
+- **[infobio.com.br](https://github.com/ivolzkm/infobio.com.br):** Projeto voltado para a criação de um site informativo sobre a Informática Biomédica, bem como a criação de uma comunidade que conecte estudantes e profissionais da área no Brasil e no mundo.  
+  <sub><b>Tecnologias:</b> TypeScript (49,5%), CSS (37,9%), JavaScript (11,8%)</sub>
 
-- **[Fila de Espera](https://github.com/ivolzkm/Fila_de_Espera):* Esse é um website criado com python e flask, que visa otimizar a dinâmica clínico-hospitalar através de um ambiente virtual interativo onde pacientes, durante as filas de espera, podem fornecer informações pertinentes ao diagnóstico.* .
+- **[Sistema de Análise e Monitoramento de Dados Biomédicos](https://github.com/ivolzkm/Sistema-de-Analise-e-monitoramento-de-dados-biomedicos):** Demonstração de um sistema robusto e flexível para a análise de dados biomédicos, desenvolvido em Java. Simula a coleta e o processamento de informações de diferentes dispositivos e sensores, como monitores cardíacos e sensores de glicemia, para gerar relatórios detalhados e identificar potenciais anomalias.  
+  <sub><b>Tecnologias:</b> Java (100%)</sub>
+
+- **[Fila de Espera](https://github.com/ivolzkm/Fila_de_Espera):** Website criado com Python e Flask, que visa otimizar a dinâmica clínico-hospitalar através de um ambiente virtual interativo onde pacientes, durante as filas de espera, podem fornecer informações pertinentes ao diagnóstico.
 
 
 ---
