@@ -29,9 +29,9 @@ Aqui estão algumas das tecnologias com as quais estou trabalhando e estudando.
 
 ## 🌱 Meus Principais Interesses
 
+- 💻 Desenvolvimento de Software para diagnóstico e gestão em saúde
 - 🔬 Pesquisa e Desenvolvimento em Saúde Digital
 - 📊 Análise de Dados aplicada à Bioinformática
-- 💻 Desenvolvimento de Software para diagnóstico e gestão em saúde
 - 💡 Inovação e empreendedorismo em Health Techs
 
 ---
