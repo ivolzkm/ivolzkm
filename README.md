@@ -34,6 +34,9 @@ Aqui estão algumas das tecnologias com as quais estou trabalhando e estudando.
 - 📊 Análise de Dados aplicada à Bioinformática
 - 💡 Inovação e empreendedorismo em Health Techs
 
+- ![Top Languages](https://github-readme-stats.vercel.app)
+
+
 ---
 
 ## 🚀 Projetos em Destaque
