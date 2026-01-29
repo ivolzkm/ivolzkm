@@ -10,7 +10,6 @@ Minha jornada profissional anterior me proporcionou uma base sólida em **comuni
 
 Aqui estão algumas das tecnologias com as quais estou trabalhando e estudando.
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ivolzkm&show_icons=true&theme=transparent)
 
 
 <p align="left">
