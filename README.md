@@ -10,7 +10,8 @@ Minha jornada profissional anterior me proporcionou uma base sólida em **comuni
 
 Aqui estão algumas das tecnologias com as quais estou trabalhando e estudando.
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ivolzkm)](https://github.com/anuraghazra/github-readme-stats)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ivolzkm&show_icons=true&theme=transparent)
+
 
 <p align="left">
   <a href="https://www.python.org" target="_blank" rel="noreferrer">
