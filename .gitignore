@@ -37,3 +37,6 @@ yarn-error.log*
 # IDEs
 .vscode/
 .idea/
+
+.next/
+node_modules/
