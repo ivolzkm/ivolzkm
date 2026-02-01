@@ -24,6 +24,16 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/ivolzkm": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/ivolzkm.js"
+    ],
+    "/laboratorio-digital": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/laboratorio-digital.js"
     ]
   },
   "ampFirstPages": []
