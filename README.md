@@ -1,6 +1,6 @@
 # 👋 Olá, eu sou o Ivo!
 
-<h3 align="center">Unindo Tecnologia e Saúde para criar soluções de impacto. 🧬💻</h3>
+<h3 align="center">Unindo Tecnologia e Saúde 🧬💻</h3>
 
 <br>
 
